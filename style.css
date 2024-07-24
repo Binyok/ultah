@@ -99,3 +99,45 @@ button:hover {
         padding: 15px;
     }
 }
+.navbar-item ul li a{
+    transition: 1s ease-in-out;
+}
+.ul{
+    justify-content: center;
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(0, 0, 0) ;
+}
+.ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Jarak antar tautan */
+}
+
+.ul li {
+    margin-top: 10px; /* Jarak antara tautan dan teks "ABIMANYU P.W.D" */
+}
+
+.ul li a {
+    text-decoration: none;
+    color: #333;
+    transition: color 0.3s ease; /* Transisi warna pada hover */
+}
+
+.ul li a:hover {
+    color: #45a049; /* Warna saat hover */
+}
+
+.ul li a i {
+    margin-right: 5px; /* Jarak antara ikon dan teks */
+}
+p{
+    text-align: center;
+}
